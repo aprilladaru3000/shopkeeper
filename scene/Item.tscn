@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cupb5bvjne6lm"]
+
+[node name="Item" type="Node2D"]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="QuantityLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
