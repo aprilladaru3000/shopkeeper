@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cx0fx5620ga7p"]
+
+[node name="Shop" type="Node2D"]
+
+[node name="ShopBackground" type="Node2D" parent="."]
+
+[node name="Counter" type="Node2D" parent="."]
+
+[node name="ItemStorage" type="Node2D" parent="."]
+
+[node name="ServingArea" type="Node2D" parent="."]
+
+[node name="CustomerQueue" type="Node2D" parent="."]
