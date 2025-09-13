@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dyob50bwveg0j"]
+
+[node name="Customer" type="Node2D"]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="OrderBubble" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Background" type="NinePatchRect" parent="OrderBubble"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="OrderList" type="VBoxContainer" parent="OrderBubble"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CustomerTimer" type="Timer" parent="."]
